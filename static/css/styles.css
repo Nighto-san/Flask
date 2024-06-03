@@ -1,0 +1,36 @@
+body { 
+  background-color: wheat; /* Цвет фона страницы - пшеничный */
+  font-family: Arial; /* Шрифт текста по умолчанию  */
+  margin: 0; /* Обнуляем внешние отступы у body */
+  padding: 0; /* Обнуляем внутренние отступы у body */ 
+  height: 100%; /* Высота body будет занимать 100% высоты окна браузера */
+  width: 100%; /* Ширина body будет занимать 100% ширины окна браузера */
+}
+
+.menu {
+  list-style: none; /* Убираем маркеры списка */
+  display: flex; /* Включаем flexbox для горизонтального меню */
+  background: #3f4137; /* Цвет фона меню - тёмно-серый */
+  height: 60px; /* Высота меню - 60 пикселей */
+  margin: 0; /* Обнуляем внешние отступы у меню */
+  padding: 0; /* Обнуляем внутренние отступы у меню */
+  color: #13c940; /* Цвет текста меню - светло-зелёный */
+  font-size: 20px; /* Размер шрифта меню - 20 пикселей */
+  overflow: hidden; /* Скрываем всё, что выходит за границы меню (на случай, если контент будет шире) */
+}
+
+.main_menu{
+  list-style: none; /* Убираем подчеркивание */
+  text-decoration: none; /* Убираем подчеркивание */
+  color: inherit; /* Наследуем цвет текста от родителя */ 
+}
+
+.form-contact label {
+         display: inline-block;
+         min-width: 80px;
+}
+
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+         font-size: 16px;
+}

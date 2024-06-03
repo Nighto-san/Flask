@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+</head>
+<link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+<body>
+    <div class="menu">
+        {% for i in menu %}
+        <ul>
+            <a class="main_menu" href="{{ i['url'] }}">
+                <li>{{ i['name'] }}</li>
+            </a> 
+        </ul>
+        {% endfor %}
+    </div>
+</body>
+</html>
