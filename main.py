@@ -26,7 +26,7 @@ def index():
 @app.route("/contact")
 def contact():
     print(url_for('contact'))
-    retyrn render_template('contact.html', title="Контакт", menu=menu)
+    return render_template('contact.html', title="Контакт", menu=menu)
 
 
 
