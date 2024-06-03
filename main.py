@@ -13,7 +13,7 @@ menu = [{"name": "STR", "url": "str"},
         {"name": "CSS", "url": "css"},
         {"name": "        ", "url": ""},
         {"name": "FLASK", "url": "flask"},
-        {"name": "             ", "url": ""},
+        {"name": "             ", "url": ""}
         {"name": "Обратная связь", "url": "contact"},]
 
 
