@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт</title>
+    <title>{{ title }}</title>
 </head>
 <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
 <body>
@@ -15,5 +15,7 @@
         </ul>
         {% endfor %}
     </div>
+    {% block content %}
+    {% endblock %}
 </body>
 </html>

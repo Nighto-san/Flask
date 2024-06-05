@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{{ super() }}
+<h2>Ошибка 404 друг, просчитался но где ?</h2>
+<a href="{{url_for('index')}}">Вернутся на главную</a>
+{% endblock %}
